@@ -1,0 +1,1 @@
+# starship-emoji-configure
