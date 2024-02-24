@@ -1,0 +1,472 @@
+[aws]
+
+[azure]
+symbol = "󰠅 "
+
+[battery]
+full_symbol = "󰁹 "
+unknown_symbol = "󰂑 "
+empty_symbol = "󰂎 "
+disabled = false
+
+[[battery.display]]
+threshold = 10
+style = "red"
+charging_symbol = "󰂆 "
+discharging_symbol = "󰁺 "
+
+[[battery.display]]
+threshold = 20
+style = "yellow"
+charging_symbol = "󰂆 "
+discharging_symbol = "󰁻 "
+
+[[battery.display]]
+threshold = 30
+style = "yellow"
+charging_symbol = "󰂇 "
+discharging_symbol = "󰁼 "
+
+[[battery.display]]
+threshold = 40
+style = "yellow"
+charging_symbol = "󰂇 "
+discharging_symbol = "󰁽 "
+
+# [[battery.display]]
+# threshold = 50
+# style = "yellow"
+# charging_symbol = "󰂈 "
+# discharging_symbol = "󰁾 "
+
+# [[battery.display]]
+# threshold = 60
+# style = "green"
+# charging_symbol = "󰂉 "
+# discharging_symbol = "󰁿 "
+
+# [[battery.display]]
+# threshold = 70
+# style = "green"
+# charging_symbol = "󰂊 "
+# discharging_symbol = "󰂀 "
+
+# [[battery.display]]
+# threshold = 80
+# style = "green"
+# charging_symbol = "󰂋 "
+# discharging_symbol = "󰂁 "
+
+# [[battery.display]]
+# threshold = 90
+# style = "green"
+# charging_symbol = "󰂋 "
+# discharging_symbol = "󰂂 "
+
+# [[battery.display]]
+# threshold = 100
+# style = "green"
+# charging_symbol = "󰂅 "
+# discharging_symbol = "󰁹 "
+
+[buf]
+
+[bun]
+
+[c]
+symbol = " "
+
+[character]
+
+[cmake]
+
+[cobol]
+
+[cmd_duration]
+
+[conda]
+
+[container]
+
+[crystal]
+symbol = " "
+
+[daml]
+
+[dart]
+symbol = " "
+
+[deno]
+
+[directory]
+
+[direnv]
+
+[docker_context]
+symbol = " "
+style = "#1D63ED bold"
+
+[dotnet]
+symbol = "󰪮 "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[env_var]
+
+[erlang]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fill]
+
+[fossil_branch]
+
+[fossil_metrics]
+
+[gcloud]
+symbol = "󱇶 "
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+tag_symbol = " "
+
+[git_metrics]
+
+[git_state]
+
+[git_status]
+conflicted = " "
+ahead = " "
+behind = " "
+diverged = "  "
+up_to_date = ""
+untracked = " " # 未追跡のイメージ
+stashed = " " # へそくりのイメージ
+modified = " "
+staged = " "
+renamed = " "
+deleted = " "
+typechanged = ""
+
+[golang]
+symbol = " "
+
+[guix_shell]
+
+[gradle]
+symbol = "  "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[helm]
+
+[hostname]
+
+[java]
+symbol = " "
+
+[jobs]
+
+[julia]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[kubernetes]
+
+[line_break]
+
+[localip]
+
+[lua]
+symbol = " "
+
+[memory_usage]
+
+[meson]
+
+# mercurial branch
+[hg_branch]
+
+[nim]
+symbol = " "
+
+[nix_shell]
+
+[nodejs]
+symbol = " "
+
+[ocaml]
+symbol = " "
+
+[openstack]
+
+# open policy agent
+[opa]
+
+[os]
+# disabled = false
+disabled = true
+
+[os.symbols]
+Alpaquita = "🔔 "
+Alpine = "  "
+Amazon = "  " # alternative icon
+Android = "  "
+Arch = "  "
+Artix = "  "
+CentOS = "  "
+Debian = "  "
+DragonFly = "🐉 "
+Emscripten = "🔗 "
+EndeavourOS = "  "
+Fedora = "  "
+FreeBSD = "  "
+Garuda = "  "
+Gentoo = "  "
+HardenedBSD = "🛡️ "
+Illumos = "  "
+# Kali = "   "
+Linux = "  "
+Mabox = "📦 "
+Macos = "  "
+Manjaro = "  "
+Mariner = "🌊 "
+MidnightBSD = "🌘 "
+Mint = "  "
+NetBSD = "🚩 "
+NixOS = "  "
+OpenBSD = "  "
+OpenCloudOS = "☁️ "
+openEuler = "🦉 "
+openSUSE = "  "
+OracleLinux = "🦴 "
+Pop = "  "
+Raspbian = "  "
+Redhat = "  "
+RedHatEnterprise = "  "
+Redox = "🧪 "
+Solus = "  "
+SUSE = "  "
+Ubuntu = "  "
+Unknown = "❓ "
+Windows = "  "
+
+[package]
+disabled = true
+
+[perl] 
+symbol = " "
+
+[php]
+symbol = " "
+style = "#B0B3D6 bold"
+
+[pijul_channel]
+
+[pulumi]
+
+[purescript]
+
+[python]
+symbol = " "
+style = "bold #FFD43B"
+
+[rlang]
+symbol = " "
+
+[raku]
+
+[red]
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[shell]
+
+[shlvl]
+
+[singularity]
+
+[solidity]
+
+[spack]
+
+[status]
+
+[sudo]
+
+[swift]
+symbol = " "
+
+[terraform]
+
+[time]
+
+[typst]
+
+[username]
+
+[vagrant]
+
+[vlang]
+symbol = " "
+
+[vcsh]
+
+[zig]
+symbol = " "
+
+[custom.cuda]
+description = "CUDA Version"
+when = "nvcc --version"
+command = "nvcc --version | grep release | sed -n 's/.*release \\(.*\\),.*/\\1/p'"
+symbol = " "
+style = "bold green"
+
+
+[custom.tex]
+description = "TeX"
+when = "test -f *.tex"
+command = "echo 'TeX'"
+symbol = " "
+style = "bold yellow"
+
+
+[custom.typescript]
+description = "TypeScript Version"
+when = "test -f package.json && grep -q '\"typescript\":' package.json"
+command = "jq -r '.devDependencies.typescript' package.json | cut -c 2-"
+symbol = " "
+style = "bold blue"
+
+
+[custom.nextjs]
+description = "Next.js"
+when = "test -f package.json && grep -q '\"next\":' package.json"
+command = "jq -r '.dependencies.next // .devDependencies.next' package.json"
+symbol = "N"
+style = "bold yellow"
+
+
+# Starshipの設定ファイルに追加する内容
+
+[custom.react]
+description = "React Version"
+# package.jsonが存在し、jqコマンドでreactのバージョンを抽出できるかチェック
+when = "test -f package.json && jq -e '.dependencies.react' package.json > /dev/null"
+# jqを使用してreactのバージョンを抽出し、前後のダブルクォーテーションを削除
+command = "jq -r '.dependencies.react' package.json"
+style = "bold cyan"
+symbol = " "
+
+# Starshipの設定ファイルに追加する内容
+
+[custom.laravel]
+description = "Laravel Version"
+# artisanコマンドが存在するかチェック
+when = "test -f artisan"
+# Laravelのバージョンを取得
+command = "php artisan --version | cut -d ' ' -f 3"
+# アイコンとバージョン情報のスタイルを設定
+style = "bold #F05340"
+symbol = "󰫐 "
+
+# [custom.rails]
+# description = "Ruby on Rails Version"
+# when = "rails --version 2> /dev/null"
+# command = "rails --version | cut -d ' ' -f 2"
+# symbol = " "
+# style = "bold red"
+
+[custom.vue]
+description = "Vue.js Version"
+when = "test -f package.json && grep -q '\"vue\":' package.json"
+command = "jq -r '.dependencies.vue // .devDependencies.vue' package.json"
+symbol = " "
+style = "bold green"
+
+[custom.nuxt]
+description = "Nuxt.js"
+when = "test -f package.json && grep -q '\"nuxt\":' package.json"
+command = "jq -r '.dependencies.nuxt // .devDependencies.nuxt' package.json"
+symbol = "󱄆 "
+style = "bold green"
+
+
+
+[custom.electron]
+description = "Electron Version"
+when = "test -f package.json && grep -q '\"electron\":' package.json"
+command = "jq -r '.dependencies.electron // .devDependencies.electron' package.json"
+symbol = " "
+style = "bold cyan"
+
+[custom.cpp]
+description = "C++"
+when = "test -f CMakeLists.txt || test -f *.cpp"
+command = "echo 'C++'"
+symbol = " "
+style = "bold blue"
+
+[custom.svelte]
+description = "Svelte Version"
+when = "test -f package.json && grep -q '\"svelte\":' package.json"
+command = "jq -r '.dependencies.svelte // .devDependencies.svelte' package.json"
+symbol = " "
+style = "bold magenta"
+
+[custom.django]
+description = "Django Version"
+when = "python -m django --version 2> /dev/null"
+command = "python -m django --version"
+symbol = " "
+style = "bold green"
+
+[custom.csharp]
+description = "C#"
+when = "test -f *.csproj || test -f *.sln"
+command = "echo '.NET'"
+symbol = " "
+style = "bold purple"
+
+[custom.angular]
+description = "Angular Version"
+when = "test -f package.json && grep -q '\"@angular/core\":' package.json"
+command = "jq -r '.dependencies.\"@angular/core\" // .devDependencies.\"@angular/core\"' package.json"
+symbol = " "
+style = "bold red"
+
+
+[custom.npm]
+description = "npm Version"
+when = "test -f package-lock.json"
+command = "npm --version"
+symbol = " "
+style = "bold red"
+
+[custom.yarn]
+description = "Yarn Version"
+when = "test -f yarn.lock"
+command = "yarn -v"
+symbol = " "
+style = "bold blue"
